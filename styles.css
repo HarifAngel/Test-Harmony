@@ -1,0 +1,857 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+/*SECTION ONE*//*SECTION ONE*//*SECTION ONE*//*SECTION ONE*/
+/*SECTION ONE*//*SECTION ONE*//*SECTION ONE*//*SECTION ONE*/
+.section-one-header
+{
+	font-size: 150%;
+	text-align: left;
+	font: normal normal 300 28px/56px 'Inter';
+	letter-spacing: -1.41px;
+	color: #666666;
+	opacity: 1;
+}
+.section-one-grid
+{
+	display: grid;
+	grid-template-columns: 15% 1fr 15%;
+	grid-row-gap: 15px;
+}
+.section-one-grid-main-col
+{
+	grid-column: 2/3;
+}
+.section-one-card-img
+{
+	max-width: 100%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.section-one-second-header
+{
+	text-align: center;
+	font: normal normal 300 30px/56px Gotham;
+	letter-spacing: -1.2px;
+	color: #000000;	
+}
+.section-one-second-header span
+{
+	text-align: center;
+	font: normal normal bold 30px/56px Gotham;
+	letter-spacing: -1.2px;
+	color: #2570B2;
+}
+.section-one-main-text
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	font: normal normal 300 15px/42px Gotham;
+	letter-spacing: -0.9px;
+	color: #666666;
+	line-height: 1.6;
+}
+.section-one-main-text span
+{
+	text-align: center;
+	font: normal normal 500 15px/42px Gotham;
+	letter-spacing: -0.9px;
+	color: #666666;
+	line-height: 1.6;
+}
+/*SECTION TWO*//*SECTION TWO*//*SECTION TWO*//*SECTION TWO*/
+/*SECTION TWO*//*SECTION TWO*//*SECTION TWO*//*SECTION TWO*/
+.section-two-left-card-img
+{
+	max-width: 80%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-two-grid
+{
+	display: grid;
+	grid-template-columns: 15% 1fr 1fr 15%;
+
+}
+.section-two-left
+{
+	grid-column: 2/3;
+}
+.section-two-rigth
+{
+	grid-column: 3/4;
+}
+.section-two-header
+{
+	text-align: center;
+	font: normal normal bold 15px/22px Gotham;
+	letter-spacing: -0.78px;
+	color: #666666;
+	text-transform: uppercase;
+	opacity: 1;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+.section-two-text
+{
+	text-align: center;
+	font: normal normal normal 15px/25px Gotham;
+	letter-spacing: -0.75px;
+	color: #666666;
+	opacity: 1;
+	line-height: 1.3;
+}
+.section-two-rigth-card-img
+{
+	max-width: 100%;
+	object-fit: cover;
+  	
+}
+.section-two-separation{
+	height:70px;
+}
+.separation
+{
+	height: 50px;
+}
+/*SECTION THREE*//*SECTION THREE*//*SECTION THREE*//*SECTION THREE*/
+/*SECTION THREE*//*SECTION THREE*//*SECTION THREE*//*SECTION THREE*/
+.section-three-grid
+{
+	display: grid;
+	grid-template-columns: 15% 1fr 1fr 15%;
+	column-gap: 60px;
+}
+.section-three-center-header
+{
+	grid-column: 2/4;
+}
+.section-three-left
+{
+	grid-column: 2/3;
+}
+.section-three-rigth
+{
+	grid-column: 3/4;
+}
+.section-three-center-style
+{
+	font-family: Gotham;
+	letter-spacing: -0.03em;
+	font-size: 30px;
+	text-align: center;
+	opacity: 0.7;
+	margin-bottom: 30px;
+}
+.dot-one
+{
+	margin-right: 20px;
+	height: 30px;
+  	width: 30px;
+  	background-color: #3F3B90;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.dot-two
+{
+	margin-right: 20px;
+	height: 30px;
+  	width: 30px;
+  	background-color: #246BAA;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.dot-three
+{
+	margin-right: 20px;
+	height: 30px;
+  	width: 30px;
+  	background-color: #15A5CD;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.dot-style
+{
+	color: white;
+	text-align: center;
+	padding-top: 4.5px;
+    font-family: Gotham;
+}
+.section-three-list-text
+{
+	font-size: 25;
+	font-family: Gotham;
+	letter-spacing: -0.03em;
+	opacity: 0.6;
+}
+.section-three-card-img
+{
+	max-width: 100%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.section-three-table-style
+{
+	border-spacing: 0 20px; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+.section-three-bottom
+{
+	background: #ECECEC 0% 0% no-repeat padding-box;
+	border-radius: 43px;
+	opacity: 1;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	
+}
+.section-three-bottom-title
+{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	font: normal normal bold 20px/34px Gotham;
+	letter-spacing: -1.14px;
+	color: #000000;
+	opacity: 1;
+}
+.section-three-span-text
+{
+	text-align: center;
+	font: normal normal bold 13px/20px Gotham;
+	letter-spacing: -0.6px;
+	color: #000000;
+}
+.section-three-bottom-first-text
+{
+	text-align: center;
+	font: normal normal normal 13px/20px Gotham;
+	letter-spacing: -0.6px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.section-three-bottom-second-text
+{
+	text-align: center;
+	font: normal normal normal 13px/20px Gotham;
+	letter-spacing: -0.6px;
+	color: #000000;
+	margin-bottom: 30px;
+}
+/*SECTION FOUR*//*SECTION FOUR*//*SECTION FOUR*//*SECTION FOUR*/
+/*SECTION FOUR*//*SECTION FOUR*//*SECTION FOUR*//*SECTION FOUR*/
+.section-four-grid
+{
+	display: grid;
+	grid-template-columns: 15% 1fr 1fr 15%;
+
+}
+.section-four-background
+{
+	background: #ECECEC 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.section-four-center-header
+{
+	grid-column: 2/4;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.section-four-left
+{
+	grid-column: 2/3;
+}
+.section-four-rigth
+{
+	grid-column: 3/4;
+}
+.section-four-first-title
+{
+	font-family: Gotham;
+	letter-spacing: -0.03em;
+	font-size: 40px;
+	text-align: center;
+}
+.section-four-second-title
+{
+	font-size: 18px;
+	font-family: Gotham-Light, Gotham;
+	font-weight: 300;
+	letter-spacing: -0.03em;
+	text-align: center;
+}
+.section-four-second-title-span
+{
+	font-family: Gotham-Black, Gotham;
+	font-weight: 800;
+	text-align: center;
+}
+.section-four-text
+{
+	margin-bottom: 40px;
+	margin-top: 20px;
+	text-align: left;
+	font: normal normal normal 18px/30px Gotham;
+	letter-spacing: -0.84px;
+	color: #000000;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.section-four-text-span
+{
+	text-align: left;
+	font: normal normal 500 18px/30px Gotham;
+	letter-spacing: -0.84px;
+	color: #000000;
+}
+.section-four-card-img
+{
+	max-width: 50%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-four-rigth-text
+{
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: Gotham-Bold, Gotham;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.columns {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+	display: flex;
+}
+.col 
+{
+	box-sizing: border-box;
+
+}
+
+.col-33 
+{
+	width: 33.33%;
+
+}
+.section-four-rigth-second-text
+{
+	font-size: 20px;
+	font-family: Gotham-Black, Gotham;
+	font-weight: 800;
+	color: #6792c9;
+	text-align: center;
+}
+.section-four-rigth-sub-second-text
+{
+	font-size: 10px;
+	font-family: Gotham-Book, Gotham;
+	color: #6792c9;
+	text-align: center;
+}
+.section-four-rigth-third-text
+{
+	color: #e2817f;
+	font-size: 20px;
+	font-family: Gotham-Black, Gotham;
+	font-weight: 800;
+	text-align: center;
+}
+.section-four-rigth-sub-third-text
+{
+	color: #e2817f;
+	font-size: 10px;
+	font-family: Gotham-Book, Gotham;
+	text-align: center;
+}
+.section-four-rigth-sub-sub-third-text
+{
+	color: #707070;
+	font-family: Gotham-Book, Gotham;
+	font-size: 8px;
+	text-align: center;
+}
+.section-four-second-card-img
+{
+	max-width: 70%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-four-rigth-text-space
+{
+	padding-top: 30px;
+}
+/*SECTION FIVE*//*SECTION FIVE*//*SECTION FIVE*//*SECTION FIVE*/
+/*SECTION FIVE*//*SECTION FIVE*//*SECTION FIVE*//*SECTION FIVE*/
+.section-five-grid
+{
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: 15% 1fr 1fr 1fr 1fr 15%;
+	column-gap: 30px;
+}
+.section-five-first
+{
+	grid-column: 2/3;
+}
+.section-five-second
+{
+	grid-column: 3/4;
+}
+.section-five-third
+{
+	grid-column: 4/5;
+}
+.section-five-four
+{
+	grid-column: 5/6;
+}
+.section-five-card-img
+{
+	max-width: 25%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-five-text
+{
+	text-align: center;
+	font: normal normal normal 15px/26px Gotham;
+	letter-spacing: -0.66px;
+	color: #000000;
+	opacity: 1;
+}
+.section-five-second-grid
+{
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 25% 1fr 1fr 1fr 25%;
+	column-gap: 10px;
+}
+.section-five-five
+{
+	grid-column: 2/3;
+}
+.section-five-six
+{
+	grid-column: 3/4;
+}
+.section-five-seven
+{
+	grid-column: 4/5;
+}
+/*SECTION SIX*//*SECTION SIX*//*SECTION SIX*//*SECTION SIX*/
+/*SECTION SIX*//*SECTION SIX*//*SECTION SIX*//*SECTION SIX*/
+.section-six-grid
+{
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 10% 1fr 1fr 10%;
+	column-gap: 70px;
+}
+.section-six-left
+{
+	grid-column: 2/3;
+}
+.section-six-right
+{
+	grid-column: 3/4;
+}
+.section-six-card-img
+{
+	max-width: 70%;
+	object-fit: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-six-left-first-text
+{
+	text-align: center;
+	font: normal normal bold 15px/20px Gotham;
+	letter-spacing: -0.66px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.section-six-left-second-text
+{
+	text-align: center;
+	font: normal normal normal 15px/20px Gotham;
+	letter-spacing: -0.66px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.section-six-left-third-text
+{
+	margin-top: 8px;
+	text-align: center;
+	font: normal normal 300 10px/20px Gotham;
+	letter-spacing: -0.6px;
+	color: #000000;
+	opacity: 1;
+}
+.section-six-right-first-text
+{
+	text-align: center;
+	font: normal normal bold 15px/20px Gotham;
+	letter-spacing: -0.66px;
+	color: #000000;
+}
+.section-six-right-second-text
+{
+	text-align: center;
+	font: normal normal normal 15px/20px Gotham;
+	letter-spacing: -0.66px;
+	color: #000000;
+}
+.section-six-right-third-text
+{
+	margin-top: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	font: normal normal 300 13px/20px Gotham;
+	letter-spacing: -0.54px;
+	color: #000000;
+	opacity: 1;
+}
+.section-six-right-four-text
+{
+	margin-top: 5px;
+	text-align: center;
+	font: normal normal 300 14px/20px Gotham;
+	letter-spacing: -0.6px;
+	color: #000000;
+	opacity: 1;
+}
+/*SECTION SEVEN*//*SECTION SEVEN*//*SECTION SEVEN*//*SECTION SEVEN*/
+/*SECTION SEVEN*//*SECTION SEVEN*//*SECTION SEVEN*//*SECTION SEVEN*/
+.section-seven-grid
+{
+	margin-top: 150px;
+	margin-bottom: 150px;
+	display: grid;
+	grid-template-columns: 15% 1fr 15%;
+}
+.section-seven-main
+{
+	grid-column: 2/3;
+}
+/*RESPONSIVE CSS*//*RESPONSIVE CSS*//*RESPONSIVE CSS*//*RESPONSIVE CSS*/
+/*RESPONSIVE CSS*//*RESPONSIVE CSS*//*RESPONSIVE CSS*//*RESPONSIVE CSS*/
+/*RESPONSIVE FOR SMALL DEVICES*/
+@media (max-width: 576px)
+{
+	/*SECTION ONE RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-one-grid
+	{
+		grid-template-columns: 1fr;
+	}
+	/*SECTION ONE RESPONSIVE SETTING SMALLER FONT SIZE*/
+	.section-one-header
+	{
+		font: normal normal 300 15px/30px 'Inter';
+	}
+	/*SECTION TWO SETTING PADDING SMALLER TO BE RESPONSIVE*/
+	.section-two-text
+	{
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	/*SECTION FOUR RIGTH SIDE RESPONSIVE FLEXBOX COLUMN SET TO 100%*/
+	.col-33
+	{
+		width: 100%
+	}
+	/*SPACING ELEMENT*/
+	#blue
+	{
+		margin-bottom: 50px;
+	}
+	/*SECTION FIVE RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-five-grid 
+	{
+		grid-template-columns: 1fr !important;
+		margin-top: 50px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-first
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-second
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-third
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px; 
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-four
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-second-grid
+	{
+		grid-template-columns: 1fr !important;
+		margin-top: 50px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-five
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-six
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-seven
+	{
+		grid-column: 1/2 !important;
+		margin-top: 80px;
+	}
+	/*SECTION SIX RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-six-grid
+	{
+		grid-template-columns: 1fr !important;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-six-left
+	{
+		grid-column: 1/2 !important;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-six-right
+	{
+		grid-column: 1/2 !important;
+	}
+	/*SECTION FOUR CHANGE FONT SIZE SMALLER TO BE RESPONSIVE*/
+	.section-four-first-title
+	{
+		font-family: Gotham;
+		letter-spacing: -0.03em;
+		font-size: 20px;
+		text-align: center;
+	}
+}
+/*RESPONSIVE FOR MEDIUM DEVICES*/
+@media (max-width: 980px)
+{
+	/*SECTION TWO RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-two-grid
+	{
+		grid-template-columns: 1fr;
+	}
+	.section-two-left
+	{
+		grid-column: 1/2;
+	}
+	.section-two-rigth
+	{
+		grid-column: 1/2;
+	}
+	/*SECTION TWO SETTING IMAGE SMALLER TO BE RESPONSIVE*/
+	.section-two-rigth-card-img
+	{
+		max-width: 40%;
+		object-fit: cover;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 10px;
+	  	
+	}
+	/*SECTION TWO SETTING PADDING FOR MORE readable on medium devices*/
+	.section-two-text
+	{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	/*SECTION ONE SETTING IMAGE SMALLER TO BE RESPONSIVE*/
+	.section-one-left-card-img
+	{
+		max-width: 40%;
+		object-fit: cover;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	/*SECTION THREE RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-three-grid
+	{
+		grid-template-columns: 1fr;
+	}
+	.section-three-left
+	{
+		grid-column: 1/2;
+	}
+	.section-three-rigth
+	{
+		grid-column: 1/2;
+	}
+	.section-three-center-header
+	{
+		grid-column: 1/2;
+	}
+	.section-three-card-img
+	{
+		max-width: 70%;
+		object-fit: cover;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	/*SECTION FOUR RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-four-grid
+	{
+		grid-template-columns: 1fr;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-four-left
+	{
+		grid-column: 1/2;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-four-rigth
+	{
+		grid-column: 1/2;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-four-center-header
+	{
+		grid-column: 1/2;
+	}
+	/*SECTION FOUR SETTING IMAGES SMALLER FOR RESPONSIVE ON MEDIUM AND SMALL DEVICES*/
+	.section-four-card-img
+	{
+		max-width: 30%;
+		object-fit: cover;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.section-four-second-card-img
+	{
+		max-width: 30%;
+		object-fit: cover;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	/*SECTION FIVE RESPONSIVE SETTING TWO COLUMN FOR MEDIUM DEVICES*/
+	.section-five-grid
+	{
+		margin-top: 70px;
+		display: grid;
+		grid-template-columns: 15% 1fr 1fr 15%;
+		column-gap: 30px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-first
+	{
+		grid-column: 2/3;
+		margin-bottom: 60px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-second
+	{
+		grid-column: 3/4;
+		margin-bottom: 60px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-third
+	{
+		grid-column: 2/3;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-four
+	{
+		grid-column: 3/4;
+	}
+	/*SETTING GRID TO TWO MAIN COLUMNS FOR MEDIUM DEVICES RESPONSIVE*/
+	.section-five-second-grid
+	{
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: 15% 1fr 1fr 15%;
+		column-gap: 10px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-five
+	{
+		grid-column: 2/3;
+		margin-bottom: 50px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-six
+	{
+		grid-column: 3/4;
+		margin-bottom: 50px;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-five-seven
+	{
+		grid-column: 2/3;
+	}
+	/*SECTION SIX RESPONSIVE SETTING TWO COLUMNS FOR RESPONSIVE ON MEDIUM DEVICES*/
+	.section-six-grid
+	{
+		grid-template-columns: 1fr 1fr;
+	}
+	/*SETTING COLUMN PLACEMENT*/
+	.section-six-left
+	{
+		grid-column: 1/2;
+	}
+	.section-six-right
+	{
+		grid-column: 2/3;
+	}
+	.section-six-right-third-text
+	{
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+	/*SECTION SEVEN RESPONSIVE SETTING ONE COLUMN ONLY*/
+	.section-seven-grid
+	{
+		margin-top: 150px;
+		margin-bottom: 150px;
+		grid-template-columns: 1fr !important;
+	}
+	.section-seven-main
+	{
+		grid-column: 1/2 !important;
+	}	
+}
