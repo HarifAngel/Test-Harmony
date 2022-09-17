@@ -26,8 +26,8 @@
 	max-width: 100%;
 	object-fit: cover;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 
 }
 .section-one-second-header
@@ -69,8 +69,8 @@
 	max-width: 80%;
 	object-fit: cover;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .section-two-grid
 {
@@ -180,7 +180,7 @@
 	color: white;
 	text-align: center;
 	padding-top: 4.5px;
-    font-family: Gotham;
+    	font-family: Gotham;
 }
 .section-three-list-text
 {
@@ -194,9 +194,9 @@
 	max-width: 100%;
 	object-fit: cover;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+   	margin-left: auto;
+    	margin-right: auto;
+    	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -392,8 +392,8 @@
 	max-width: 70%;
 	object-fit: cover;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .section-four-rigth-text-space
 {
@@ -429,8 +429,8 @@
 	max-width: 25%;
 	object-fit: cover;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .section-five-text
 {
@@ -481,8 +481,8 @@
 	max-width: 70%;
 	object-fit: cover;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .section-six-left-first-text
 {
@@ -687,9 +687,9 @@
 		max-width: 40%;
 		object-fit: cover;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    margin-top: 10px;
+	    	margin-left: auto;
+	    	margin-right: auto;
+	    	margin-top: 10px;
 	  	
 	}
 	/*SECTION TWO SETTING PADDING FOR MORE readable on medium devices*/
@@ -704,8 +704,8 @@
 		max-width: 40%;
 		object-fit: cover;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
+	    	margin-left: auto;
+	    	margin-right: auto;
 	}
 	/*SECTION THREE RESPONSIVE SETTING ONE COLUMN ONLY*/
 	.section-three-grid
@@ -729,8 +729,8 @@
 		max-width: 70%;
 		object-fit: cover;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
+	    	margin-left: auto;
+	    	margin-right: auto;
 	}
 	/*SECTION FOUR RESPONSIVE SETTING ONE COLUMN ONLY*/
 	.section-four-grid
@@ -758,16 +758,16 @@
 		max-width: 30%;
 		object-fit: cover;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
+	    	margin-left: auto;
+	    	margin-right: auto;
 	}
 	.section-four-second-card-img
 	{
 		max-width: 30%;
 		object-fit: cover;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
+	    	margin-left: auto;
+	    	margin-right: auto;
 	}
 	/*SECTION FIVE RESPONSIVE SETTING TWO COLUMN FOR MEDIUM DEVICES*/
 	.section-five-grid
@@ -854,4 +854,50 @@
 	{
 		grid-column: 1/2 !important;
 	}	
+}
+/*RESPONSIVE FOR LARGE DEVICES*/
+@media screen and (min-width: 1700px) {
+	.section-one-grid 
+	{
+	    display: grid;
+	    grid-template-columns: 1fr 1140px 1fr;
+	    grid-row-gap: 15px;
+	}
+    .section-two-grid {
+    	display: grid;
+    	grid-template-columns: 1fr 570px 570px 1fr;
+	}
+	.section-three-grid {
+	    display: grid;
+	    grid-template-columns: 1fr 570px 570px 1fr;
+	    column-gap: 60px;
+	}
+	.section-four-grid {
+	    display: grid;
+	    grid-template-columns: 1fr 570px 570px 1fr;
+	}
+	.section-five-grid {
+	    margin-top: 70px;
+	    display: grid;
+	    grid-template-columns: 1fr 285px 285px 285px 285px 1fr;
+	    column-gap: 30px;
+	}
+	.section-five-second-grid {
+	    margin-top: 40px;
+	    display: grid;
+	    grid-template-columns: 1fr 285px 285px 285px 1fr;
+	    column-gap: 10px;
+	}
+	.section-six-grid {
+	    margin-top: 40px;
+	    display: grid;
+	    grid-template-columns: 1fr 570px 570px 1fr;
+	    column-gap: 70px;
+	}
+	.section-seven-grid {
+	    margin-top: 150px;
+	    margin-bottom: 150px;
+	    display: grid;
+	    grid-template-columns: 1fr 1140px 1fr;
+	}
 }
